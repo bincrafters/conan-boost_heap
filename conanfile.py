@@ -8,18 +8,18 @@ class BoostHeapConan(ConanFile):
     description = "Please visit http://www.boost.org/doc/libs/1_65_1/libs/libraries.htm"
     license = "www.boost.org/users/license.html"
     lib_short_names = ["heap"]
-    requires =  "Boost.Array/1.65.1@bincrafters/testing", \
-                      "Boost.Assert/1.65.1@bincrafters/testing", \
-                      "Boost.Bind/1.65.1@bincrafters/testing", \
-                      "Boost.Concept_Check/1.65.1@bincrafters/testing", \
-                      "Boost.Config/1.65.1@bincrafters/testing", \
-                      "Boost.Intrusive/1.65.1@bincrafters/testing", \
-                      "Boost.Iterator/1.65.1@bincrafters/testing", \
-                      "Boost.Mpl/1.65.1@bincrafters/testing", \
-                      "Boost.Parameter/1.65.1@bincrafters/testing", \
-                      "Boost.Static_Assert/1.65.1@bincrafters/testing", \
-                      "Boost.Throw_Exception/1.65.1@bincrafters/testing", \
-                      "Boost.Type_Traits/1.65.1@bincrafters/testing"
+    requires =  "Boost.Array/1.65.1@bincrafters/stable", \
+                      "Boost.Assert/1.65.1@bincrafters/stable", \
+                      "Boost.Bind/1.65.1@bincrafters/stable", \
+                      "Boost.Concept_Check/1.65.1@bincrafters/stable", \
+                      "Boost.Config/1.65.1@bincrafters/stable", \
+                      "Boost.Intrusive/1.65.1@bincrafters/stable", \
+                      "Boost.Iterator/1.65.1@bincrafters/stable", \
+                      "Boost.Mpl/1.65.1@bincrafters/stable", \
+                      "Boost.Parameter/1.65.1@bincrafters/stable", \
+                      "Boost.Static_Assert/1.65.1@bincrafters/stable", \
+                      "Boost.Throw_Exception/1.65.1@bincrafters/stable", \
+                      "Boost.Type_Traits/1.65.1@bincrafters/stable"
 
                       #array3 assert1 bind3 concept_check5 config0 intrusive6 iterator5 mpl5 parameter10 static_assert1 throw_exception2 type_traits3
                       
