@@ -7,7 +7,7 @@ from conans import ConanFile, tools
 class BoostHeapConan(ConanFile):
     name = "boost_heap"
     version = "1.66.0"
-    url = "https://github.com/bincrafters/conan-boost-heap"
+    url = "https://github.com/bincrafters/conan-boost_heap"
 
     lib_short_names = ["heap"]
     is_header_only = True
