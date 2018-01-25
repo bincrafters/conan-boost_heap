@@ -8,7 +8,8 @@ class BoostHeapConan(ConanFile):
     name = "boost_heap"
     version = "1.66.0"
     url = "https://github.com/bincrafters/conan-boost_heap"
-
+    author = "Bincrafters <bincrafters@gmail.com>"
+    exports = ["LICENSE.md"]
     lib_short_names = ["heap"]
     is_header_only = True
 
