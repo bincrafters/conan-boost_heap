@@ -17,19 +17,19 @@ class BoostHeapConan(ConanFile):
         self.info.header_only()
 
     requires = (
-        "boost_package_tools/1.65.1@bincrafters/testing",
-        "boost_array/1.65.1@bincrafters/testing",
-        "boost_assert/1.65.1@bincrafters/testing",
-        "boost_bind/1.65.1@bincrafters/testing",
-        "boost_concept_check/1.65.1@bincrafters/testing",
-        "boost_config/1.65.1@bincrafters/testing",
-        "boost_intrusive/1.65.1@bincrafters/testing",
-        "boost_iterator/1.65.1@bincrafters/testing",
-        "boost_mpl/1.65.1@bincrafters/testing",
-        "boost_parameter/1.65.1@bincrafters/testing",
-        "boost_static_assert/1.65.1@bincrafters/testing",
-        "boost_throw_exception/1.65.1@bincrafters/testing",
-        "boost_type_traits/1.65.1@bincrafters/testing"
+        "boost_package_tools/1.65.1@bincrafters/stable",
+        "boost_array/1.65.1@bincrafters/stable",
+        "boost_assert/1.65.1@bincrafters/stable",
+        "boost_bind/1.65.1@bincrafters/stable",
+        "boost_concept_check/1.65.1@bincrafters/stable",
+        "boost_config/1.65.1@bincrafters/stable",
+        "boost_intrusive/1.65.1@bincrafters/stable",
+        "boost_iterator/1.65.1@bincrafters/stable",
+        "boost_mpl/1.65.1@bincrafters/stable",
+        "boost_parameter/1.65.1@bincrafters/stable",
+        "boost_static_assert/1.65.1@bincrafters/stable",
+        "boost_throw_exception/1.65.1@bincrafters/stable",
+        "boost_type_traits/1.65.1@bincrafters/stable"
     )
 
     # BEGIN
@@ -37,7 +37,7 @@ class BoostHeapConan(ConanFile):
     description = "Please visit http://www.boost.org/doc/libs/1_65_1"
     license = "BSL-1.0"
     short_paths = True
-    build_requires = "boost_generator/1.65.1@bincrafters/testing"
+    build_requires = "boost_generator/1.65.1@bincrafters/stable"
 
     def package_id(self):
         getattr(self, "package_id_additional", lambda:None)()
