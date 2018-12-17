@@ -4,7 +4,7 @@
 from conans import python_requires
 
 
-base = python_requires("boost_base/1.68.0@bincrafters/testing")
+base = python_requires("boost_base/1.69.0@bincrafters/testing")
 
 class BoostHeapConan(base.BoostBaseConan):
     name = "boost_heap"
@@ -19,7 +19,6 @@ class BoostHeapConan(base.BoostBaseConan):
         "boost_config",
         "boost_intrusive",
         "boost_iterator",
-        "boost_mpl",
         "boost_parameter",
         "boost_static_assert",
         "boost_throw_exception",
