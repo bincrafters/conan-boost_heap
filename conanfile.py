@@ -8,6 +8,7 @@ base = python_requires("boost_base/1.67.0@bincrafters/testing")
 
 class BoostHeapConan(base.BoostBaseConan):
     name = "boost_heap"
+    version = "1.67.0"
     url = "https://github.com/bincrafters/conan-boost_heap"
     lib_short_names = ["heap"]
     header_only_libs = ["heap"]
